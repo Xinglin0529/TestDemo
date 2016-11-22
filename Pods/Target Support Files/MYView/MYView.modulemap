@@ -1,0 +1,6 @@
+framework module MYView {
+  umbrella header "MYView-umbrella.h"
+
+  export *
+  module * { export * }
+}

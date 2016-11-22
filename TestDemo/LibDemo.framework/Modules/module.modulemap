@@ -1,0 +1,10 @@
+framework module LibDemo {
+  umbrella header "LibDemo.h"
+
+  export *
+  module * { export * }
+}
+
+module LibDemo.Swift {
+    header "LibDemo-Swift.h"
+}

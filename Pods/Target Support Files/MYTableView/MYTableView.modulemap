@@ -1,0 +1,6 @@
+framework module MYTableView {
+  umbrella header "MYTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

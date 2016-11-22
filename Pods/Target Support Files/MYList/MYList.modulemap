@@ -1,0 +1,6 @@
+framework module MYList {
+  umbrella header "MYList-umbrella.h"
+
+  export *
+  module * { export * }
+}
