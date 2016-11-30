@@ -64,6 +64,7 @@ extension TestTableViewController {
 extension TestTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        self.navigationController?.pushViewController(TestControlViewController(), animated: true)
         print("select indexPath value is \(dataSource.sectionModels[indexPath.section].items[indexPath.row].floweringCount)")
     }
 }

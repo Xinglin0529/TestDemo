@@ -12,6 +12,9 @@
 		AA1DE3181DE3E20400E30EA8 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE3171DE3E20400E30EA8 /* UserInfo.swift */; };
 		AA1DE31A1DE3E25B00E30EA8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE3191DE3E25B00E30EA8 /* ViewModel.swift */; };
 		AA1DE31C1DE3E58000E30EA8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE31B1DE3E58000E30EA8 /* TableViewCell.swift */; };
+		AA1DE31E1DE5255700E30EA8 /* TestControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE31D1DE5255700E30EA8 /* TestControlViewController.swift */; };
+		AA1DE3211DE587DA00E30EA8 /* SearchGitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE3201DE587DA00E30EA8 /* SearchGitViewController.swift */; };
+		AA1DE3231DE58C1C00E30EA8 /* GithubSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE3221DE58C1C00E30EA8 /* GithubSearchAPI.swift */; };
 		AA6E31A61DD472B200F8DEF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E31A51DD472B200F8DEF2 /* AppDelegate.swift */; };
 		AA6E31A81DD472B200F8DEF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E31A71DD472B200F8DEF2 /* ViewController.swift */; };
 		AA6E31AB1DD472B200F8DEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6E31A91DD472B200F8DEF2 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 		AA1DE3171DE3E20400E30EA8 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		AA1DE3191DE3E25B00E30EA8 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		AA1DE31B1DE3E58000E30EA8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AA1DE31D1DE5255700E30EA8 /* TestControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestControlViewController.swift; sourceTree = "<group>"; };
+		AA1DE3201DE587DA00E30EA8 /* SearchGitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchGitViewController.swift; sourceTree = "<group>"; };
+		AA1DE3221DE58C1C00E30EA8 /* GithubSearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSearchAPI.swift; sourceTree = "<group>"; };
 		AA6E31A21DD472B200F8DEF2 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E31A51DD472B200F8DEF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA6E31A71DD472B200F8DEF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +71,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA1DE31F1DE587C100E30EA8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DE3201DE587DA00E30EA8 /* SearchGitViewController.swift */,
+				AA1DE3221DE58C1C00E30EA8 /* GithubSearchAPI.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		AA6E31991DD472B200F8DEF2 = {
 			isa = PBXGroup;
 			children = (
@@ -86,12 +101,14 @@
 		AA6E31A41DD472B200F8DEF2 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AA1DE31F1DE587C100E30EA8 /* Search */,
 				AA6E31A51DD472B200F8DEF2 /* AppDelegate.swift */,
 				AA1DE3171DE3E20400E30EA8 /* UserInfo.swift */,
 				AA1DE3191DE3E25B00E30EA8 /* ViewModel.swift */,
 				AA1DE31B1DE3E58000E30EA8 /* TableViewCell.swift */,
 				AA6E31A71DD472B200F8DEF2 /* ViewController.swift */,
 				AA1DE3151DE3E03600E30EA8 /* TestTableViewController.swift */,
+				AA1DE31D1DE5255700E30EA8 /* TestControlViewController.swift */,
 				AA6E31A91DD472B200F8DEF2 /* Main.storyboard */,
 				AA6E31AC1DD472B200F8DEF2 /* Assets.xcassets */,
 				AA6E31AE1DD472B200F8DEF2 /* LaunchScreen.storyboard */,
@@ -226,8 +243,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1DE31A1DE3E25B00E30EA8 /* ViewModel.swift in Sources */,
+				AA1DE3231DE58C1C00E30EA8 /* GithubSearchAPI.swift in Sources */,
+				AA1DE3211DE587DA00E30EA8 /* SearchGitViewController.swift in Sources */,
 				AA1DE3181DE3E20400E30EA8 /* UserInfo.swift in Sources */,
 				AA6E31A81DD472B200F8DEF2 /* ViewController.swift in Sources */,
+				AA1DE31E1DE5255700E30EA8 /* TestControlViewController.swift in Sources */,
 				AA1DE31C1DE3E58000E30EA8 /* TableViewCell.swift in Sources */,
 				AA6E31A61DD472B200F8DEF2 /* AppDelegate.swift in Sources */,
 				AA1DE3161DE3E03600E30EA8 /* TestTableViewController.swift in Sources */,
